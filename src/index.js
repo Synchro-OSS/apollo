@@ -19,25 +19,33 @@ import SvButton from './sv/button/svButton';
 import SvButtonLink from './sv/button/svButtonLink';
 import SvButtonOutline from './sv/button/svButtonOutline';
 import SvButtonAnimated from './sv/button/svButtonAnimated';
+import SvCard from './sv/card';
+import { SvCardFooter, SvCardHeader, SvCardMain } from './sv/card';
+import SvSegment from './sv/segment/svSegment';
 
 export {
-  Hermes,
-  LaunchWindow,
-  Blocker,
-  OptionSelector,
-  Filter,
-  DataTable,
-  DataTableColumn,
-  Paginate,
-  PowerTable,
-  PowerColumn,
-  PowerSheet,
-  SheetColumn,
-  InputDate,
-  SvRow,
-  SvCol,
-  SvButton,
-  SvButtonLink,
-  SvButtonOutline,
-  SvButtonAnimated
+	Hermes,
+	LaunchWindow,
+	Blocker,
+	OptionSelector,
+	Filter,
+	DataTable,
+	DataTableColumn,
+	Paginate,
+	PowerTable,
+	PowerColumn,
+	PowerSheet,
+	SheetColumn,
+	InputDate,
+	SvRow,
+	SvCol,
+	SvButton,
+	SvButtonLink,
+	SvButtonOutline,
+	SvButtonAnimated,
+	SvCard,
+	SvCardFooter,
+	SvCardHeader,
+	SvCardMain,
+	SvSegment
 };
